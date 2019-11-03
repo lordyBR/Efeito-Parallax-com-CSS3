@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300&display=swap');
+
+::-webkit-scrollbar { /* Esconde a barra de rolagem (não funciona no Firefox) */
+    display: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px; /* Caso seja maior que 0 pixels, a página irá ficar com uma borda */
+}
+
+div.txt {
+    background-color: #fff;
+    margin: 0px;
+    height: fit-content;
+}
+
+div.txt p {
+    text-align: center;
+    font-size: 40px;
+    margin: 50px 0px;
+}
+
+/* 'background-attachment: fixed;' cria o  efeito nas imagens */
+/* 'background-size: cover;' impede que a imagem fique distorcida quando é definida a altura 'height' da div */
+
+div#img {
+    background: url(_img/bridge-cold-daytime-1559117.jpg) center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+}
+
+div#img2 {
+    background: url(_img/black-and-white-cold-forest-674913.jpg) center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+}
+
+div#img3 {
+    background: url(_img/adventure-blue-calm-waters-300857.jpg) center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+}
+
+div#img4 {
+    background: url(_img/adventure-alpine-altitude-355241.jpg) center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+}
